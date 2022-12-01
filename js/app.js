@@ -106,9 +106,8 @@ function clearFormInput() {
     this.message.value = ""; 
 }
 
-formMessage.addEventListener("submit", event => {
-    event.preventDefault();
-    clearFormInput()
-    showToastMessage();
-    setInterval(showToastMessage, 3500); 
-})
+// formMessage.addEventListener("submit", event => {
+   // event.preventDefault();
+  //  clearFormInput()
+   // showToastMessage();
+// })
